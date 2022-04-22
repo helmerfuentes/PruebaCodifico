@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ttxyR7GQTnIuRfG5+Fkb73hvBi/NTTYjFmdh/RBjCJxn3TSfYs5Mom52sV/baAWHuZuzfOTW/4fxMOmyeS/E/A==",
+  "success": true,
+  "projectFilePath": "D:\\prueba\\Codifico\\Figura\\Figura\\Figura.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elmer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

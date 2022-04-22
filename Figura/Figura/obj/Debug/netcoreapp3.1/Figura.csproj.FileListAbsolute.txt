@@ -1,0 +1,14 @@
+D:\prueba\Codifico\Figura\Figura\bin\Debug\netcoreapp3.1\Figura.exe
+D:\prueba\Codifico\Figura\Figura\bin\Debug\netcoreapp3.1\Figura.deps.json
+D:\prueba\Codifico\Figura\Figura\bin\Debug\netcoreapp3.1\Figura.runtimeconfig.json
+D:\prueba\Codifico\Figura\Figura\bin\Debug\netcoreapp3.1\Figura.runtimeconfig.dev.json
+D:\prueba\Codifico\Figura\Figura\bin\Debug\netcoreapp3.1\Figura.dll
+D:\prueba\Codifico\Figura\Figura\bin\Debug\netcoreapp3.1\Figura.pdb
+D:\prueba\Codifico\Figura\Figura\obj\Debug\netcoreapp3.1\Figura.csprojAssemblyReference.cache
+D:\prueba\Codifico\Figura\Figura\obj\Debug\netcoreapp3.1\Figura.GeneratedMSBuildEditorConfig.editorconfig
+D:\prueba\Codifico\Figura\Figura\obj\Debug\netcoreapp3.1\Figura.AssemblyInfoInputs.cache
+D:\prueba\Codifico\Figura\Figura\obj\Debug\netcoreapp3.1\Figura.AssemblyInfo.cs
+D:\prueba\Codifico\Figura\Figura\obj\Debug\netcoreapp3.1\Figura.csproj.CoreCompileInputs.cache
+D:\prueba\Codifico\Figura\Figura\obj\Debug\netcoreapp3.1\Figura.dll
+D:\prueba\Codifico\Figura\Figura\obj\Debug\netcoreapp3.1\Figura.pdb
+D:\prueba\Codifico\Figura\Figura\obj\Debug\netcoreapp3.1\Figura.genruntimeconfig.cache

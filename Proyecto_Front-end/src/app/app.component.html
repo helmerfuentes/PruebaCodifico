@@ -1,0 +1,92 @@
+<div class="finder">
+  <h1 class="">Find GitHub User</h1>
+</div>
+<div class="center">
+  <div class="msjError" *ngIf="userControl.invalid && userControl.touched">
+    <ng-container  >
+      <div *ngIf="userControl.errors?.required" class="container-error-message">
+        <small class="text-danger"> Campo requerido </small>
+      </div>
+      <div *ngIf="userControl.errors?.minlength" class="container-error-message">
+        <small class="text-danger"> se requieren mínimo 2 caracteres</small>
+      </div>
+    </ng-container>
+  </div>
+  
+  <div>
+    <form #form="ngForm"   (ngSubmit)="ConsultarUsuario()" class="pseudo-search" >
+      <input  type="text" required minlength="2" placeholder="Digite usuario"  #userControl="ngModel" name="usuario" [(ngModel)]="usuario">
+      <i class="fa fa-github"></i>
+      <button type="submit" [disabled]="!form.form.valid" >
+        <i class="fa fa-search"></i>
+        </button>
+      </form>
+  </div>
+ 
+  <div  class="card" >
+    <div *ngIf="respuesta.id==undefined  && InformacionConsultada">
+      <span>No hay 
+        usuarios que cumplan con el criterio de búsqueda</span>
+  </div>
+    <div *ngIf="respuesta.id!=undefined" class="additional">
+    <div class="user-card">
+      <div class="points">
+        {{respuesta.login}}
+    </div>
+       
+      
+      <img  class="round" src="assets/image/d2.jpg" width="200" >
+      
+      <div class="level">
+        {{respuesta.created_at |date:'mediumDate'}}
+    </div>
+     
+    </div>
+    <div class="more-info">
+      <h1>{{respuesta.name}}</h1>
+      <div class="coords ">
+        <span><i class="fa fa-map-marker"></i> {{respuesta.location}}</span>
+        <span><i class="fa  fa-twitter"></i> @{{respuesta.twitter_username}}</span>
+      </div>
+      <div>
+        <a class="enlace" href="">{{respuesta.blog}}</a>
+        
+      </div>
+      <div class="stats">
+        <div>
+          <div class="title">Repos</div>
+          <i class="fa fa-code-fork"></i>
+          <div class="value">
+            {{respuesta.public_repos}}
+          </div>
+        </div>
+        <div>
+          <div class="title">Followers</div>
+          <i class="fa fa-users"></i>
+          <div class="value">
+            {{respuesta.followers}}
+          </div>
+        </div>
+        <div>
+          <div class="title">Following</div>
+          <i class="fa fa-user"></i>
+          <div class="value">
+            {{respuesta.following}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+   
+   </div>
+  </div>
+
+
+    
+    
+
+
+  </div>
+
+
